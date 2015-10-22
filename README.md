@@ -24,5 +24,20 @@ Prefixes t and f denote time domain and frequency domain signals, respectively. 
 
 I have also modified the names to remove parentheses and dash, and to clarify that x, y, z refer to movement axis.
 
+Finally I have replaced abbreviations as follows, retaining mixed case for improved readability:
+"Gyro" with ”Gyroscope",
+"Mag" with ”Magnitude", 
+“Freq" with ”Frequency",
+"Acc" with ”Acceleration", 
+"std" with ”StandardDeviation"
+“mean” with “Mean”
+
+
+##How to View the File
+The file “tidydata.txt” may be difficult to read as uploaded. If so the following code will allow you to view it in a more readable format:
+
+data <- read.table("tidydata.txt", header = TRUE)
+View(data)
+
  
 
